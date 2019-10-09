@@ -61,12 +61,16 @@
 			float: right;
 		}
 		
-		img {
+		.image {
 			border-radius: 50%;
 			border: 5px solid #aaa;
+			float : right;
+			margin-right : 30px;
 		}
 		
-		
+		header {
+			text-align : right;
+		}
 		
 		</style>
 	</head>
@@ -75,6 +79,11 @@
 			
 		<nav>
 			<p>Salut je suis la future barre de navigation</p>
+			<ul id="barnav">
+				<li id="nav-moi"><a href="#">Moi</a></li>
+				<li id="nav-projet"><a href="#">Mes projets</a></li>
+				<li id="nav-contact"><a href="#">Contact</a></li>
+			</ul>
 		</nav>
 		
 		<aside>
@@ -90,13 +99,13 @@
 		
 		<main>
 			<header>
-			
-			
-			
-			
-			
-				<img src="PourCV.jpg" alt="CV" width="150" height="150">
+				<img src="PourCV.jpg" alt="maPhoto" class="image" width="150" height="150">
+				<h1>Bonjour,</h1>
+				<p>Je m'appelle Helene Carlier-Gubler</p>
 			</header>
+			
+			
+			
 			<h1>Hello world !</h1>
 			<p> Salut je suis le main </p>
 			
