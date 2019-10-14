@@ -50,7 +50,6 @@
 		nav {
 			width: 70%;
 			text-align : center;
-			background-color : green;
 			float: right;
 		}
 		
@@ -76,20 +75,28 @@
 			list-style-type: none;
 			margin: 0;
 			padding: 0;
-			width: 200px;
-			background-color: #f1f1f1;
+			overflow: hidden;
+			background-color: #333;
+		}
+
+		li {
+			float: left;
 		}
 
 		li a {
 			display: block;
-			color: #000;
-			padding: 8px 0 8px 16px;
+			color: white;
+			text-align: center;
+			padding: 14px 16px;
 			text-decoration: none;
 		}
-		
-		/* Change the link color on hover */
+
 		li a:hover {
-			background-color: #555;
+			background-color: #111;
+		}
+		
+		.active {
+			background-color: rgba(141, 186, 228);
 			color: white;
 		}
 		
@@ -99,9 +106,8 @@
 	<body>
 			
 		<nav>
-			<p>Salut je suis la future barre de navigation</p>
 			<ul id="nav">
-				<li><a href="#">Moi</a></li>
+				<li><a class="active" href="#">Moi</a></li>
 				<li><a href="#">Mes projets</a></li>
 				<li><a href="#">Contact</a></li>
 			</ul>
