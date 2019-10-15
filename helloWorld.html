@@ -3,91 +3,73 @@
 	<head>
 		<meta charset=utf-8>
 		<title>CV Hélène</title>
-		<style>
-		
-		
-		/*ca fait qu'il y a 2 colonnes*/
-		section {
-			display: -webkit-flex;
-			display: flex;
-		}
-		
-		/*ca fait le carré gris de la photo*/
-		nav {
-			-webkit-flex: 1;
-			-ms-flex: 1;
-			flex: 1;
-			background: #ccc;
-			padding: 20px;
-		}
-
-		/* ca fait la colonne de droite*/
-		article {
-			-webkit-flex: 3;
-			-ms-flex: 3;
-			flex: 3;
-			background-color: #f1f1f1;
-			padding: 10px;
-		}
-		
-		header {
-			position: absolute;
-			width: 401px;
-			height: 51px;
-			left: 350px;
-			top: 0px;
-		}
-		
-		
-		
-		</style>
+		<link rel="stylesheet" type="text/css" href="style1.css">
 	</head>
+	
 	<body>
 			
-		<h1>Hello world !</h1>
+		<nav>
+			<ul id="nav">
+				<li><a class="active" href="helloWorld.html">Moi</a></li>
+				<li><a href="projet.html">Mes projets</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
 		
-		<form action="helloWorld2" methode="POST">
-			<input type="text" name="nom" id="nom">
-			<input type="submit" value="envoyer" name="submit">
-		</from>
-		<button>Click me</button>
+		<aside>
+			<img src="PourCV.jpg" alt="maPhotoClassic" class="imageClassic" width="150" height="150">
+			<br>
+			<br>
+			<h1>  Elève en école d'ingénieur,</h1>
+			<br>
+			<h2>  Recherche d'un stage de 4 mois<br>  en tant que développeuse</h2>
+			<br>
+			
+			<br>
+			<a class="linkedin" href="https://www.linkedin.com/in/hélène-carlier-gubler-095965150">Mon LinkedIn !</a>
+		</aside>
 		
-		<section>
-			<nav>
-				<img src="PourCV.jpg" width="80" height="80">
-				<p> et si j'ecris ici ca fait quoi ?</p>
-				<p> et si j'ecris ici ca fait quoi ?</p>
-				<p> et si j'ecris ici ca fait quoi ?</p>
-				<p> et si j'ecris ici ca fait quoi ?</p>
-				<p> et si j'ecris ici ca fait quoi ?</p>
-				<p> et si j'ecris ici ca fait quoi ?</p>
-				<p> et si j'ecris ici ca fait quoi ?</p>
-				<p> et si j'ecris ici ca fait quoi ?</p>
-				<p> et si j'ecris ici ca fait quoi ?</p>
-				<p> et si j'ecris ici ca fait quoi ?</p>
-				<p> et si j'ecris ici ca fait quoi ?</p>
-				<p> et si j'ecris ici ca fait quoi ?</p>
-				<p> et si j'ecris ici ca fait quoi ?</p>
-				<p> et si j'ecris ici ca fait quoi ?</p>
-				<p> et si j'ecris ici ca fait quoi ?</p>
-				<p> et si j'ecris ici ca fait quoi ?</p>
-				<p> et si j'ecris ici ca fait quoi ?</p>
-				<p> et si j'ecris ici ca fait quoi ?</p>
-				<p> et si j'ecris ici ca fait quoi ?</p>
-				<p> et si j'ecris ici ca fait quoi ?</p>
-				<p> et si j'ecris ici ca fait quoi ?</p>
-			</nav>
-  
+		<main>
+			<header>
+				<img src="PourCV.jpg" alt="maPhoto" class="image" width="150" height="150">
+				<h1>Bonjour,</h1>
+				<p>Je m'appelle Helene Carlier-Gubler
+				<br>Je recherche un stage de 4 mois en tant que développeuse !</p>
+			</header>
+			
 			<article>
-				
-					<p>Ici je veux mettre un menu</p>
-				
-				
-				
-				<h1>London</h1>
-				<p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
-				<p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+				<h1>A propos de moi !</h1>
+				<p>Je suis actuelement en quatrième année d'école d'ingénieur spécialisée en objets connectés.
+				<br>Passionnée par les IoT et le développement web, je recherche un stage de 4 mois en tant que développeuse.
+				<br>Motivée, curieuse et dynamique, je suis prête à rejoindre vos équipes !</p>
+				<br>
+				<br>
 			</article>
-		</section>
+			
+			<article>
+				<h1>Je me présente</h1>
+				<video width="60%" controls>
+					<source src="video.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
+			</article>
+			
+			<article>
+				<h1>Mes expérience !</h1>
+				<h2>Promod – Conseillère de vente </h2>
+				<p style="font-style:italic">Janvier 2018 et temps partiel 2018 – 2019</p>
+				<p>Conseillère de vente à différents Promod en tant qu'intérim 
+				<br>- S'adapter aux différentes équipes, magasins et clientèles 
+				<br>- Conseiller la clientèle 
+				<br>- Participer à la gestion des magasins</p>
+				<br>
+				<h2>Bâtisphère Services –  Stagiaire assistant chef de marché</h2>
+				<p style="font-style:italic">Janvier 2019 – Février 2019</p>
+				<p><br>- Recherche de l’évolution des prix et de la fiscalité de l’énergie
+				<br>- Observation de l’état de la programmation pluriannuelle de l’énergie en France
+				<br>- Mise à jour des données sur les aides nationales, régionales et locales de la rénovation énergétique</p>
+				<br>				
+			</article>			
+		</main>	
 	</body>
 </html>
