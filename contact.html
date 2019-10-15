@@ -19,18 +19,20 @@
 			height : 100%
 		}
 		
-		nav {
-			width: 70%;
-			text-align : center;
-			float: right;
-		}
-		
 		main {
 			width: 70%;
 			text-align : center;
 			background-color : rgba(245, 245, 245);
 			float: right;
 		}
+		
+		nav {
+			width: 70%;
+			text-align : center;
+			float: right;
+		}
+		
+		
 		
 		.image {
 			border-radius: 50%;
@@ -95,13 +97,14 @@
 		
 		</style>
 	</head>
-		<body>
+	
+	<body>
 			
 		<nav>
 			<ul id="nav">
 				<li><a href="helloWorld.html">Moi</a></li>
-				<li><a class="active" href="projet.html">Mes projets</a></li>
-				<li><a href="contact.html">Contact</a></li>
+				<li><a href="projet.html">Mes projets</a></li>
+				<li><a class="active" href="contact.html">Contact</a></li>
 			</ul>
 		</nav>
 		
@@ -113,44 +116,49 @@
 			<br>
 			<h2>  Recherche d'un stage de 4 mois<br>  en tant que développeuse</h2>
 			<br>
-			
 			<br>
 			<a class="linkedin" href="https://www.linkedin.com/in/hélène-carlier-gubler-095965150">Mon LinkedIn !</a>
 		</aside>
 		
 		<main>
 			<header>
-				<h1>Mes projets,</h1>
-				<p>Je vous montre ici les projets auxquels j'ai pris plaisir à développer!</p>
+				<h1>Me contacter,</h1>
+				<p>Si vous avez des questions, des remarques ou juste envie de me parler,
+				<br>vous pouvez m'envoyer un mail en remplissant les champs ci-dessous</p>
 			</header>
 			
 			<article>
-				<h1>Autonomous Intruders Vehicle </h1>
-				<p style="font-style:italic">2018 - Australie</p>
-				<p>Chef de projet, équipe de 3 personnes
-				<br>Réalisation d’une voiture télécommandée permettant de prendre en photo un intrus dans une pièce et de prévenir le client
-				<br>- Fabrication de la voiture sur la base de composants électroniques
-				<br>- Programmation de l’algorithme de déplacement et de reconnaissance en Python</p>
+				<form action="#" method="post">
+					<center><table>
+						<tr>
+							<td><label for="nom">Nom :</label></td>
+							<td><input type="text" id="nom" name="user_nom"></td>
+						</tr>
+						<tr>
+							<td><label for="prenom">Prenom :</label></td>
+							<td><input type="text" id="prenom" name="user_prenom"></td>
+						</tr>
+						<tr>
+							<td><label for="mail">E-mail :</label></td>
+							<td><input type="text" id="mail" name="user_mail"></td>
+						</tr>
+						<tr>
+							<td><label for="message">Message :</label></td>
+							<td><textarea name="message" rows="10" cols="30"></textarea></td>
+						</tr>
+					</table>
+					<tr>
+						<button>Inscription</button>
+					</tr></center>
+				</form>
 				<br>
-			</article>
-			
-			<article>
-				<h1>Gant Piano </h1>
-				<p style="font-style:italic">2017 - Paris</p>
-				<p>Chef de projet, équipe 6 personnes
-				<br>Réalisation d’un gant capable de produire le son d’un piano juste avec le bout des doigts 
-				<br>- Fabrication du gant à base de capteur de tension et de composant électroniques
-				<br>- Programmation de l’algorithme de reconnaissance du mouvement des doigts en Python sur une Raspberry-pi</p>
-				<br>			
-			</article>	
-
-			<article>
-				<h1>Projets informatiques </h1>
-				<p style="font-style:italic">2018 et 2019 - Paris</p>
-				<p>- Programmation du Back-end d’un site web en PHP, SQL et HTML  2019
-				<br>- Programmation d’une simulation d’un écosystème en C++ à l’aide de la théorie des graphes 2018</p>
-				<br>			
-			</article>	
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+			</article>			
 		</main>	
 	</body>
 </html>
